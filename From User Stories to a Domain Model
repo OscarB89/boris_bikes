@@ -1,0 +1,26 @@
+As a person,
+So that I can use a bike,
+I'd like a docking station to release a bike.
+
+
+| Objects       | Messages      |
+| ------------- | ------------- |
+| Person        | use_bike      |
+| Docking station | release_bike  |
+
+
+As a person,
+So that I can use a good bike,
+I'd like to see if a bike is working
+
+
+| Objects       | Messages      |
+| ------------- | ------------- |
+| Person        | use_bike      |
+| Bike          | working_bike?  |
+
+
+Next, you'll need to create a diagram to demonstrate Object interactions. 
+This can take any form you like as long as it shows what your objects will be, and what messages you expect them to respond to
+
+|Person| --use_bike--> |Docking_station| --working_bike?--> (if true) --release_bike--> |Bike|
