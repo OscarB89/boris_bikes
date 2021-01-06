@@ -1,6 +1,12 @@
-require "bike"
+# require "./bike"
 
 class DockingStation
+
+    
+
+    # def initialize
+    #   @occupied = true
+    # end
 
     def release_bike
       Bike.new
