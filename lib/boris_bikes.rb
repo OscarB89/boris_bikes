@@ -1,14 +1,13 @@
 require "bike"
 
 class DockingStation
-    def initialize
-    end
 
     def release_bike
       Bike.new
     end
 
-end
+    def dock
 
-test = DockingStation.new.release_bike
-puts test
+    end
+
+end
