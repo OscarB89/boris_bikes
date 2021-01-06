@@ -10,7 +10,7 @@ describe DockingStation do
     end
 
     it "docking station should be able to dock bikes" do
-      expect(DockingStation.new).to respond_to(:dock)
+      expect(DockingStation.new).to respond_to(:dock).with(1).argument
     end
 
     it "shows if the station is full or not" do
