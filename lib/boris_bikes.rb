@@ -2,18 +2,14 @@
 
 class DockingStation
 
-    attr_reader :occupied
-
-    def initialize
-      @occupied = true
-    end
+    attr_reader :bike
 
     def release_bike
       Bike.new
     end
 
-    def dock
-
+    def dock(bike)
+      @bike = bike
     end
 
 end
