@@ -3,7 +3,7 @@ class DockingStation
     end
 
     def release_bike
-      puts "hi"
+
     end
 
 end
