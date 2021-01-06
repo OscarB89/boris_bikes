@@ -17,4 +17,8 @@ describe DockingStation do
       expect(DockingStation.new).to respond_to(:bike)
     end
 
+    it 'want an error message when 1 bike has been released from an empty docking station' do
+      expect { DockingStation.new.release_bike }.to raise_error
+    end
+
 end
