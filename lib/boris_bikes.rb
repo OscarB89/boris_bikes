@@ -2,11 +2,11 @@
 
 class DockingStation
 
-    
+    attr_reader :occupied
 
-    # def initialize
-    #   @occupied = true
-    # end
+    def initialize
+      @occupied = true
+    end
 
     def release_bike
       Bike.new

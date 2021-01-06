@@ -14,7 +14,7 @@ describe DockingStation do
     end
 
     it "shows if the station is full or not" do
-      expect(DockingStation.new).to respond_to(:occupied?)
+      expect(DockingStation.new).to respond_to(:occupied)
     end
 
 end
